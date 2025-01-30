@@ -1,0 +1,103 @@
+.grid{
+    width: 100%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.avatar{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+    width: 250px;
+    height: 620px;
+}
+
+table{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.avatar div{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.avatar div img{
+    height: 100%;
+}
+th{
+    font-family: "Herculanum LT Pro", sans-serif;
+    border: 1px solid black;
+    color: white;
+}
+td{
+    font-weight: bold;
+    background-color: white;
+}
+th, td{
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.aang{
+    border: 5px solid orange;
+    background-color: rgba(255, 165, 0, 0.5);
+}
+.aang table{
+    background-color: rgba(255, 165, 0, 0.5);
+}
+.aang td{
+    color: chocolate;
+}
+.aang th{
+    background-color: chocolate;
+}
+
+.roku{
+    border: 5px solid red;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.roku table{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.roku td{
+    color: darkred;
+}
+.roku th{
+    background-color: darkred;
+}
+
+.kyoshi{
+    border: 5px solid green;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.kyoshi table{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.kyoshi td{
+    color: green;
+}
+.kyoshi th{
+    background-color: green;
+}
+
+.korra{
+    border: 5px solid blue;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.korra table{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.korra td{
+    color: darkblue;
+}
+.korra th{
+    background-color: blue;
+}

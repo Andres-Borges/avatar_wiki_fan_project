@@ -1,0 +1,72 @@
+main{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+main h1, .text h2{
+    font-family: "Herculanum LT Pro", sans-serif;
+}
+main h1{
+    font-size: 100px;
+}
+main p, main h1{
+    margin: 0px;
+    padding: 0px;
+}
+main div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    row-gap: 20px;
+    margin-top: 10px;
+}
+
+main div div{
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+main div div img{
+    height: 100%;
+    z-index: 2;
+    transition: transform 0.35s;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    top: -10px;
+    left: 0;
+    color: white;
+    transform: scale(0.7);
+    transition: 0.35s;
+    opacity: 0;
+    text-align: center;
+}
+.text span{
+   position: absolute;
+   bottom: 0px;
+}
+.text h2, .text span{
+    padding: 10px;
+}
+
+main div div:hover img{
+    transform: scale(0.45);
+    border-radius: 50%;
+}
+main div div:hover .text{
+    transform: scale(1);
+    opacity: 1;
+}

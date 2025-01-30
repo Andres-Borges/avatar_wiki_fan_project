@@ -1,0 +1,75 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../images/ScrollBg.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.bending{
+    width: 100%;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    text-align: center;
+}
+.water{
+    margin-top: 20px;
+    background-color: darkblue;
+}
+.earth{
+    background-color: green;
+}
+.fire{
+    background-color: red;
+}
+.air{
+    background-color: orange;
+    margin-bottom: 20px;
+}
+.info{
+    color: white;
+}
+.info h1{
+    font-size: 100px;
+    margin: 0px;
+    font-family: "Herculanum LT Pro", sans-serif;
+}
+.info p{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.video{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+.video img{
+    width: 100%;
+}
+.video video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    border: 5px solid white;
+}
+
+.video h3{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Herculanum LT Pro", sans-serif;
+}
+
+.link{
+    font-family: "Herculanum LT Pro", sans-serif;
+    margin-left: 10px;
+}
+
+.series:nth-child(5){
+    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
