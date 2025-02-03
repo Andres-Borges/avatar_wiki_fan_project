@@ -2,7 +2,7 @@
 By *Andres Borges*
 
 ### Description:
-  Responsive website with the purpose of serving as a WiKi, or fan page, to the aclaimed Tv series "*Avatar: The Last Airbender*"!
+  Responsive website with the purpose of serving as a WiKi, or fan page, to the aclaimed Tv series "*Avatar: The Last Airbender*"! ![Click here to access the website](https://andres-borges.github.io/avatar_wiki_fan_project/)
 
 ### Built with:
 
